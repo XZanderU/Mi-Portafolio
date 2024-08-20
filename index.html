@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--metadatos-->
+    <meta charset="utf-8">
+    <meta name="autor" content="John Alexander Urrea Garcia">
+    <meta name="description" content="Portafolio de Desarrollo Web de John Alexander Urrea Garcia">
+    <meta name="keywords" content="HTML, CSS Javascript, React, SQL">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>John Urrea / Desarrollo Web Frontend</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/icons8-código-100.png">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-md bg-navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="images/icons8-código-100.png" width="30" alt="Logo Pagina Web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Seccion Hero--> 
+
+      <section class="hero align-items-md-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-desarrollador rounded-circle" src="images/Alexander-Urrea.jpeg" alt="Foto de Alexander Urrea">
+          <h1>Hola, soy Alexander Urrea</h1>
+          <h2>Desarrollo web Frontend, SQL y más</h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="images/hero-inferior.svg">
+        </div>
+      </section>
+      
+      <!-- sobre mi -->
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo">Conoce a Alexander Urrea</h2>
+          <p class="seccion-texto">Soy un Desarrollador Frontend especializado en la creación de
+            interfaces de usuario intuitivas y responsivas, con un dominio
+            avanzado en tecnologías como React, JavaScript, Bootstrap y
+            CSS. Mi compromiso con el aprendizaje continuo me lleva a
+            expandir mis habilidades en lenguajes emergentes como Python
+            y Java. Formado en análisis y desarrollo de software por el SENA,
+            poseo una sólida base técnica que complementa mi pasión por
+            resolver desafíos complejos y mi habilidad para trabajar
+            colaborativamente en equipo. Destaco por mi capacidad para
+            adaptarme con agilidad a nuevas tecnologías y metodologías, lo
+            que me permite aportar soluciones innovadoras y eficientes en el
+            ámbito del desarrollo frontend.
+            </p>
+        </div>
+      </section>
+
+      <!-- Experiencia -->
+      <section id="experiencia" class="experiencia seccion-clara">
+        <div id="experiencia" class="container text-center">
+          <div class="row">
+            <!--Desrrollo Web-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-pc-display-horizontal"></i>
+              <P class="experiencia-titulo">Desarrollo Web</P>
+              <p>Maxmedia, Bogotá
+                MAR. - 2022
+                NOV. - 2023
+                • Experto en UI: Diseños responsivos con HTML, CSS y JS.
+                • Maestro en React: Aplicaciones web dinámicas y atractivas.
+                • Agilidad con Bootstrap: Estilos visuales impactantes y rápidos.
+                • Sinergia de equipo: Integración perfecta con backend y diseño.
+                • Rendimiento óptimo: Optimizaciones para fluidez y
+                compatibilidad.
+                • Innovador constante: Actualizado en tendencias de desarrollo
+                frontend.
+                • Soluciones creativas: Experiencia de usuario elevada a la
+                excelencia.
+                </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Html</span>
+                <span class="badge text-bg-primary">CSS</span>
+                <span class="badge text-bg-primary">Javascript</span>
+                <span class="badge text-bg-primary">React</span>
+                <span class="badge text-bg-primary">SQL</span>
+                <span class="badge text-bg-primary">Express</span>
+              </div>
+            </div>
+            <!--Estudiante-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-journal-code"></i>
+              <p class="experiencia-titulo">Estudios</p>
+              <p>A N A L I S I S Y D E S A R R O L L O D E
+                S O F T W A R E
+                SENA, Bogotá
+                2023
+                El programa de Análisis y Desarrollo de Software del SENA forma profesionales en desarrollo de aplicaciones, desde el análisis hasta la implementación. Los estudiantes adquieren habilidades en programación, bases de datos y desarrollo web, aplicando metodologías ágiles y trabajando en proyectos reales.
+              
+                D E S A R R O L L O F R O N T E N D
+                Mimo App, Bogotá
+                2023
+                • Experto en tecnologías Frontend: HTML, CSS y JavaScript.
+                • Desarrollador de aplicaciones dinámicas y responsivas con
+                React.js.
+                • Familiarizado con frameworks de última generación: Next.js.
+                • Fundamentos en gestión de bases de datos: SQL.</p>
+              <div class="badges-contenedor">
+                <span class="badge rounded-pill text-bg-primary">Mimo App</span>
+                <span class="badge rounded-pill text-bg-primary">SENA</span>
+                <span class="badge rounded-pill text-bg-primary">Udemy</span>
+                <span class="badge rounded-pill text-bg-primary">Python y JAVA</span>
+                <span class="badge rounded-pill text-bg-primary">Desarrollo Web</span>
+              </div>
+            </div>
+            <!--Articulos-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-bag-plus-fill"></i>
+              <p class="experiencia-titulo">Más</p>
+              <p>Nivel de Ingles B2</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Primary</span>
+                <span class="badge text-bg-primary">Primary</span>
+                <span class="badge text-bg-primary">Primary</span>
+                <span class="badge text-bg-primary">Primary</span>
+                <span class="badge text-bg-primary">Primary</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Proyectos-->
+      <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he realizado últimamente</h3>
+        <!-- Galeria de proyectos -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!--Proyecto 1-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Calculadora React.png" alt="proyecto 1">
+                <div class="overlay">
+                  <p>Calculadora React</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/XZanderU/Calculadora" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/App Tareas1" alt="proyecto 1">
+                <div class="overlay">
+                  <p>App Tareas</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/XZanderU/App-tareas-React" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Click-Counter" alt="proyecto 1">
+                <div class="overlay">
+                  <p>Contador de Clicks</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/XZanderU/Click-Counter" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/XZanderU?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver Mas Proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+        </a>
+      </section>
+
+    <!--Contacto-->
+    <section id="contacto" class="contacto seccion-oscura ">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo" >
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¿Tienes una idea? Hagámosla realidad juntos. <strong>Contáctame</strong> y convierte tu visión en una experiencia digital única.
+            </div>
+            <div class="col-12 col-md-4 ">
+              <a href="mailto:ag8388714gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Footer (pie de pagina)-->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-icono" src="images/icons8-código-100.png" alt="Logo del Portafolio">
+      <p class="footer-texto text-center">Cada proyecto es una oportunidad para aprender juntos.<br>Tu visión se transforma en una experiencia digital, combinando nuestra creatividad y colaboración.</p>
+      <div class="iconos-redes-sociales flex-wrap align-items-center justify-content-center">
+        <a href="https://www.linkedin.com/in/john-alexander-urrea-garcia-5b0219169/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/XZanderU" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:8388714@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos de autor">Creado por  John Alexander Urrea Garcia (2024) &#169;</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
